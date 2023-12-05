@@ -2090,6 +2090,9 @@ def setup():
   p5.imageMode(p5.CENTER)
   p5.textAlign(p5.CENTER, p5.CENTER)
   p5.rectMode(p5.CENTER)
+  print('CONTROLS: W / A / D for movement. Hold SPACE to charge boost, then aim mouse and release SPACE. F to change track to metronome. ESC to pause.')
+  print('                                  ^^SPACE and F only work after you reach a certain platform. Or, press T to access early.')
+  print('When you Boost, you create a looping note. After 4 Boosts, can only boost again during those notes. Goal is to create a game that has you use abilities to create your own songs.')
   print('artwork by me, music by emilybeats, various sfx files by rubberduck/legoluft/Little Robot Sound Factory/bart/p0ss/Juhani Junkala/yd (OpenGameArt.org)')
 def draw():
   p5.background(255)
